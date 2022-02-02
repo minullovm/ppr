@@ -73,24 +73,25 @@ nav > ul {
 
 .main-2 {
   text-align: center;
-  margin-top: 50px;
+  margin: 50px 0;
 }
 
 .main-2 > ul {
   list-style: none;
   display: flex;
   text-align: center;
-  justify-content:space-evenly;
+  justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
   padding-left: 0;
 }
 
 .main-2 > ul > li {
-  padding: 10px;
-  margin: 60px;
+  flex-basis: 33%;
   border: 1px solid black;
   border-radius: 20px;
+  margin: 20px 0;
+  background-color:whitesmoke;
 }
 
 .main-3 {
